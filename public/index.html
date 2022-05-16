@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
@@ -9,35 +9,129 @@
       name="description"
       content="Web site created using create-react-app"
     />
-    <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
-    <!--
-      manifest.json provides metadata used when your web app is installed on a
-      user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
-    -->
-    <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
-    <!--
-      Notice the use of %PUBLIC_URL% in the tags above.
-      It will be replaced with the URL of the `public` folder during the build.
-      Only files inside the `public` folder can be referenced from the HTML.
 
-      Unlike "/favicon.ico" or "favicon.ico", "%PUBLIC_URL%/favicon.ico" will
-      work correctly both with client-side routing and a non-root public URL.
-      Learn how to configure a non-root public URL by running `npm run build`.
-    -->
-    <title>React App</title>
+    <title>portifolio em React</title>
   </head>
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <div id="root"></div>
-    <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
+    <div id="root">    </div>
+    <div id="apresentacao">
+      <h3>Seja bem vindo a minha carreira!</h3>
+    </div>
+    <div id="barraDeNavegacao">
+      <ul >
+        <li><a href=".app">Inicio</a></li>
+        <li><a href="#interesses">Interesses</a></li>
+        <li><a href="#projetoAbaixo">Projetos</a></li>
+        <li><a href="#rodape">Contatos</a></li>
+      </ul>
+    </div>
+    <div id="historia">
+      <p>O mundo da computação me fascina desde a infância, enquanto meus colegas saiam pra jogar bola no campinho, eu curtia a imensa variedade do catálogo do Friv e Click Jogos. Lembro até hoje de quando tinha 10 anos e pesquisei "como baixar placa de vídeo" </p> 
+      <p>Até meus 19 anos meus contatos profissionais com computadores se resumiam em:</p>
+        <ul>
+          <li><p>Construção de plantas arquitetônicas usando os programas Revit e AutoCad</p> </li>
+          <li><p>Extração e análise de banco de dados usando Excel e Power BI</p></li>  
+        </ul>
+      <p>Quando ocorreu a tão sonhada aprovação no Curso de Ciência da Computação na UFSC, onde logo de início estudei e trabalhei com:</p>
+        <ul>
+          <li>
+            <p>Resolução de mais de 1000 desafios de lógica de programação com Python</p>
+          </li>
+          <li><p>Desenvolvimento de páginas usando á famosa tríade HTML, CSS e JavaScript. Com a implementação de componentes usando os Frameworks React e Svelte</p> </li>
+          <li>
+            <p>Implementação de API's usando Django</p>
+          </li>  
+        </ul>
+    </div>
+    <div id="interesses">
+      <h2>Coisas que me atraem:</h2>
+      <section class="carousel" aria-label="Gallery">
+        <ol class="carousel__viewport">
+          <li id="carousel__slide1"
+              tabindex="0"
+              class="carousel__slide">
+              <h2>PIZZA</h2>
+            <div class="carousel__snapper">
+              <a href="#carousel__slide4"
+                class="carousel__prev"></a>
+              <a href="#carousel__slide2"
+                class="carousel__next"></a>
+            </div>
+          </li>
+          <li id="carousel__slide2"
+              tabindex="0"
+              class="carousel__slide">
+              <h2>MUSCULAÇÃO</h2>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide1"
+              class="carousel__prev"></a>
+            <a href="#carousel__slide3"
+              class="carousel__next"></a>
+          </li>
+          <li id="carousel__slide3"
+              tabindex="0"
+              class="carousel__slide">
+              <h2>MINHA NOIVA</h2>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide2"
+              class="carousel__prev"></a>
+            <a href="#carousel__slide4"
+              class="carousel__next"></a>
+          </li>
+          <li id="carousel__slide4"
+              tabindex="0"
+              class="carousel__slide">
+              <h2>EMPRESAS QUE VALORIZAM O APRENDIZADO CONSTANTE E BEM ESTAR DO FUNCIONARIO</h2>
+            <div class="carousel__snapper"></div>
+            <a href="#carousel__slide3"
+              class="carousel__prev"></a>
+            <a href="#carousel__slide1"
+              class="carousel__next"></a>
+          </li>
+        </ol>
+      </section>
+    </div>
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+    <div id="gradiente"></div>
 
-      To begin the development, run `npm start` or `yarn start`.
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    <div id="projetoAbaixo">
+      <h2>⇩⇩⇩⇩⇩⇩⇩PROJETOS⇩⇩⇩⇩⇩⇩⇩</h2>
+    </div>
+
+    <ul id="projetos">
+      <li id="python">
+        <a href="https://github.com/gatitoz-luan/Desafios_em_PYTHON"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMaj2z9xHZfLhTLnndg6bdqg0LYdGnq2JjIg&usqp=CAU"></img></a>
+        <p>Foram cerca de mil desafios de lógica de programação realizados usando a linguagem Python e suas bibliotecas.<br>
+        clique na imagem e você será direcionado ao repositório com link da plataforma e os arquivos das resoluções.</p>
+      </li>
+      <li id="api">
+        <a href="https://github.com/gatitoz-luan/API_com_Django"><img src="./midia/CarApi.PNG"></img></a>
+        <p>Car_Loan é uma API RESTful escrita em Python usando o Django. O principal objetivo é calcular o parcelamento de um automóvel de forma simples e rápida.<br>
+          clique na imagem e você será direcionado ao repositório com link do site e os arquivos do projeto.</p>
+      </li>
+      <li id="cursos">
+        <a href="https://www.gov.br/depen/pt-br/assuntos/noticias/depen-assina-parceria-com-a-universidade-federal-de-santa-catarina-para-disponibilizacao-de-cursos-em-formato-ead"><img src="https://www.gov.br/depen/pt-br/assuntos/noticias/WhatsAppImage20211110at18.03.38.jpeg/@@images/61925044-4311-42eb-825b-93213b00112f.jpeg" ></img></a>
+        <p>Projeto de extensão universitário do qual participo, consiste em uma plataforma de cursos para uso do DEPEN.<br>
+        Clique na imagem para saber mais sobre o projeto ou clique <a href="https://cardapio-git-refactoring-schiestl.vercel.app/">AQUI</a> para acessar a página de componentes criada por mim os quais são aplicados ao projeto</p>
+      </li>
+    </ul>
+
+    <div class="footer-basic">
+      <footer id="rodape">
+          <div class="social">
+            <a href="https://instagram.com/luan.gatitoz?igshid=YmMyMTA2M2Y="><img src="./midia/icones/instagram.png" alt="intagram"></img></a>
+            
+            <a href="" ><img src="./midia/icones/whatsapp.png" alt="whatsapp"></img></a>
+            
+            <a href="https://www.linkedin.com/in/luan-costa-12ba99199/"><img src="./midia/icones/linkedin.png" alt="linkedin"></img></a>
+
+            <a href="https://github.com/gatitoz-luan" ><img src="./midia/icones/github.png" alt="github"></img></a>
+          </div>
+
+          <p class="copyright">Luan Rodrigo da Silva Costa © 2022</p>
+      </footer>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
