@@ -59,60 +59,31 @@ const skillsSection = {
   /* Make Sure to include correct Font Awesome Classname to view your icon
 https://fontawesome.com/icons?d=gallery */
 
-  softwareSkills: [
-    {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
-    },
-    {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
-    },
-    {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
-    }
-  ],
+softwareSkills: [
+  { skillName: "html-5", fontAwesomeClassname: "fab fa-html5" },
+  { skillName: "css3", fontAwesomeClassname: "fab fa-css3-alt" },
+  { skillName: "sass", fontAwesomeClassname: "fab fa-sass" },
+  { skillName: "JavaScript", fontAwesomeClassname: "fab fa-js" },
+  { skillName: "reactjs", fontAwesomeClassname: "fab fa-react" },
+  { skillName: "nodejs", fontAwesomeClassname: "fab fa-node" },
+  { skillName: "npm", fontAwesomeClassname: "fab fa-npm" },
+  { skillName: "aws", fontAwesomeClassname: "fab fa-aws" },
+  { skillName: "python", fontAwesomeClassname: "fab fa-python" },
+  { skillName: "docker", fontAwesomeClassname: "fab fa-docker" },
+  { skillName: "git", fontAwesomeClassname: "fab fa-git" },
+  { skillName: "angular", fontAwesomeClassname: "fab fa-angular" },
+  { skillName: "vuejs", fontAwesomeClassname: "fab fa-vuejs" },
+  { skillName: "bootstrap", fontAwesomeClassname: "fab fa-bootstrap" },
+  { skillName: "typescript", fontAwesomeClassname: "fab fa-js-square" },
+  { skillName: "linux", fontAwesomeClassname: "fab fa-linux" },
+  { skillName: "aws-s3", fontAwesomeClassname: "fas fa-server" },
+  { skillName: "java", fontAwesomeClassname: "fab fa-java" },
+  { skillName: "php", fontAwesomeClassname: "fab fa-php" },
+  { skillName: "wordpress", fontAwesomeClassname: "fab fa-wordpress" },
+  { skillName: "ubuntu", fontAwesomeClassname: "fab fa-ubuntu" }
+]
+
+,
   display: true // Set false to hide this section, defaults to true
 };
 
@@ -224,7 +195,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
